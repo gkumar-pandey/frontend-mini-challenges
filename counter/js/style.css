@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+.counter-container {
+  border: "1px solid red";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+}
+
+.counter .value {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  background-color: aqua;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+input {
+  padding: 0.4rem;
+}
