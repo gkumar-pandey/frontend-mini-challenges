@@ -11,6 +11,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 1rem;
+  max-width: 60dvw;
 }
 
 .wrapper {
@@ -22,6 +23,7 @@ h2 {
   font-family: sans-serif;
   font-weight: 700;
   padding: 1rem;
+  text-align: center;
 }
 
 .input-container {
@@ -42,9 +44,9 @@ input {
   font-size: 1rem;
 }
 fieldset {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border: none;
-  background: #eeee;
+  background: #f5f5dc;
   padding: 0 1rem;
 }
 
@@ -57,7 +59,7 @@ fieldset legend {
 }
 
 .text {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: sans-serif;
   padding: 8px;
 }

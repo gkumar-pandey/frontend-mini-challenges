@@ -63,7 +63,7 @@ const rendeResult = () => {
     .map(
       (ele, idx) => `
    <fieldset class=${ele.name}>
-      <legend>Lower Case</legend>
+      <legend>${ele.name}</legend>
       <p class="text">${ele.func(text)}</p>
     </fieldset>
   `
